@@ -8,7 +8,7 @@ public class Exp3_Prog2 {
 				java.util.Scanner in = new java.util.Scanner(System.in);
 				int[] array = new int[3];
 				int sum=0;
-				System.out.println("Enter the 50 number");
+				System.out.println("Enter the 20 numbers");
 				for(int i=0;i<array.length;i++){
 						array[i]=in.nextInt();
 						sum = sum + array[i]*array[i];
